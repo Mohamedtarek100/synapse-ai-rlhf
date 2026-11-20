@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .cyber-panel {
+    background: rgba(11, 17, 32, 0.75);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .cyber-panel-glow {
+    background: rgba(13, 22, 42, 0.8);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    box-shadow: 0 0 25px -5px rgba(56, 189, 248, 0.15);
+  }
+
+  .cyber-panel-danger {
+    background: rgba(45, 12, 20, 0.6);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(244, 63, 94, 0.4);
+    box-shadow: 0 0 30px -5px rgba(244, 63, 94, 0.25);
+  }
+}
